@@ -103,6 +103,7 @@ export default function Home() {
     )
   ];
 
+  
   // Filtering data to get the first entry after 6 AM for each unique date
   const firstDataForEachDate = uniqueDates.map((date) => {
     return data?.list.find((entry) => {
